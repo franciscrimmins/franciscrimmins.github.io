@@ -1,31 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-
     <title>Francis Crimmins by franciscrimmins</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
-
   <body>
-
-    <header>
-      <div class="container">
+    <div class="wrapper">
+      <header>
         <h1>Francis Crimmins</h1>
-        <h2>I am a senior software engineer that specialises in combining ideas from the research and open source worlds to create new products and systems.</h2>
+        <p>I am a senior software engineer that specialises in combining ideas from the research and open source worlds to create new products and systems.</p>
 
-        <section id="downloads">
-          <a href="https://github.com/franciscrimmins" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
 
-    <div class="container">
-      <section id="main_content">
+        <p class="view"><a href="https://github.com/franciscrimmins">View My GitHub Profile</a></p>
+
+      </header>
+      <section>
         <h2>
 <a name="summary" class="anchor" href="#summary"><span class="octicon octicon-link"></span></a>Summary</h2>
 
@@ -49,6 +46,15 @@
 <p><img src="../images/query-spikes-and-related-queries.png" alt="Query spikes and related queries screenshot"></p>
 
 <p>I was the original design of the Funnelback "Pattern Analyser" system, which can detect "<a href="http://docs.funnelback.com/pattern_analyser_reports.html">spikes</a>" in particular queries (usually due to some external temporal event). I also designed and implemented a system to automatically detect related queries, based on their click patterns. This can be used to group queries which have no terms in common but have the same semantics.</p>
+
+<h3>
+<a name="web-crawling-and-graph-analysis" class="anchor" href="#web-crawling-and-graph-analysis"><span class="octicon octicon-link"></span></a>Web Crawling and Graph Analysis</h3>
+
+<p>Example visualization of a web crawl:</p>
+
+<p><img src="../images/website-graph.png" alt="Graph visualisation"></p>
+
+<p>I was the original creator of the Funnelback web crawler, which was designed to minimise resource usage (memory, storage etc.) while crawling 100s of millions of web pages. I have also done work on analysing crawl link graphs and how "annotations" like queries, clicks and anchortext can be used to enrich the dataset for other applications (including Analytics and Data Mining).</p>
 
 <h2>
 <a name="key-skills" class="anchor" href="#key-skills"><span class="octicon octicon-link"></span></a>Key Skills</h2>
@@ -80,8 +86,11 @@
 
 <p>This is a personal site and does not necessarily reflect the viewpoint or opinions of my current or previous employers. Details on example systems shown above refers to publicly available information in the official <a href="http://docs.funnelback.com/">Funnelback Documentation</a>.</p>
       </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-
+    <script src="javascripts/scale.fix.js"></script>
     
   </body>
 </html>
