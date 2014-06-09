@@ -1,35 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
     <title>Francis Crimmins by franciscrimmins</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
+
+    <header>
+      <div class="container">
         <h1>Francis Crimmins</h1>
-        <p>I am a senior software engineer that specialises in combining ideas from the research and open source worlds to create new products and systems.</p>
+        <h2>I am a senior software engineer that specialises in combining ideas from the research and open source worlds to create new products and systems.</h2>
 
+        <section id="downloads">
+          <a href="https://github.com/franciscrimmins" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
 
-        <p class="view"><a href="https://github.com/franciscrimmins">View My GitHub Profile</a></p>
-
-      </header>
-      <section>
+    <div class="container">
+      <section id="main_content">
         <h2>
 <a name="summary" class="anchor" href="#summary"><span class="octicon octicon-link"></span></a>Summary</h2>
 
 <p>I have designed and developed a 100 million page web crawler, recommender systems, a program for detecting "spikes" and related queries in search engine logs and a text miner for definitions from web pages.</p>
 
 <h2>
-<a name="sample-creations" class="anchor" href="#sample-creations"><span class="octicon octicon-link"></span></a>Sample Creations</h2>
+<a name="portfolio" class="anchor" href="#portfolio"><span class="octicon octicon-link"></span></a>Portfolio</h2>
 
 <h3>
 <a name="recommender-systems" class="anchor" href="#recommender-systems"><span class="octicon octicon-link"></span></a>Recommender Systems</h3>
@@ -38,14 +41,14 @@
 
 <p><img src="../images/stackoverflow-similar-items.png" alt="StackoverFlow Recommender Screenshot"></p>
 
-<p>This screenshot shows a set of "similar items" being recommended for a given web page. I designed and implemented an algorithm which combines information from multiple sources, such as "co-clicks", "related clicks", "related results" etc. For more details, please see the <a href="http://docs.funnelback.com/recommendations.html">Funnelback Recommender System Documentation</a>.</p>
+<p>I designed and implemented an algorithm which combines information from multiple sources, such as "co-clicks", "related clicks", "related results" etc. For more details, please see the <a href="http://docs.funnelback.com/recommendations.html">Funnelback Recommender System Documentation</a>.</p>
 
 <h3>
 <a name="query-spikes-and-related-queries" class="anchor" href="#query-spikes-and-related-queries"><span class="octicon octicon-link"></span></a>Query Spikes and Related Queries</h3>
 
 <p><img src="../images/query-spikes-and-related-queries.png" alt="Query spikes and related queries screenshot"></p>
 
-<p>I was the original designer of the Funnelback Analytics system, which can detect "<a href="http://docs.funnelback.com/pattern_analyser_reports.html">query spikes</a>" in a particular queries (usually due to some external event). I also created and implemented a system to automatically detect related queries to group them together.</p>
+<p>I was the original design of the Funnelback "Pattern Analyser" system, which can detect "<a href="http://docs.funnelback.com/pattern_analyser_reports.html">spikes</a>" in particular queries (usually due to some external temporal event). I also designed and implemented a system to automatically detect related queries, based on their click patterns. This can be used to group queries which have no terms in common but have the same semantics.</p>
 
 <h2>
 <a name="key-skills" class="anchor" href="#key-skills"><span class="octicon octicon-link"></span></a>Key Skills</h2>
@@ -75,13 +78,10 @@
 </ul><h3>
 <a name="disclaimer" class="anchor" href="#disclaimer"><span class="octicon octicon-link"></span></a>Disclaimer</h3>
 
-<p>This is a personal site and so the content here is my own and does not necessarily reflect the viewpoint or opinions of my current or previous employers. Details on example systems above refers to publicly available information in the official <a href="http://docs.funnelback.com/">Funnelback Documentation</a>.</p>
+<p>This is a personal site and does not necessarily reflect the viewpoint or opinions of my current or previous employers. Details on example systems shown above refers to publicly available information in the official <a href="http://docs.funnelback.com/">Funnelback Documentation</a>.</p>
       </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+
     
   </body>
 </html>
