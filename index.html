@@ -31,9 +31,11 @@
 <h3>
 <a id="event-mining" class="anchor" href="#event-mining" aria-hidden="true"><span class="octicon octicon-link"></span></a>Event Mining</h3>
 
-<p>I designed and developed the "<a href="http://lucidworks.com/blog/mining-events-recommendations/">EventMiner</a>" system for mining relationships from "event" logs for <a href="http://lucidworks.com/">Lucidworks</a> in California. It generates a co-occurrence matrix from the raw event logs and then produces a graph from the matrix to generate diverse and high-quality recommendations by navigating the "<a href="https://en.wikipedia.org/wiki/Neighbourhood_%28graph_theory%29">neighbourhood graph</a>" for an input item.</p>
+<p>I designed and developed the "<a href="http://lucidworks.com/blog/mining-events-recommendations/">EventMiner</a>" system for mining relationships from "event" logs for <a href="http://lucidworks.com/">Lucidworks</a> in California. The program generates a co-occurrence matrix from the raw event logs and then produces a graph from the matrix which encodes the relationships between users, sessions, queries and documents:</p>
 
 <p><img src="../images/sample-user-id-graph.png" alt="Graph Navigation Example"></p>
+
+<p>The service can then navigate the "<a href="https://en.wikipedia.org/wiki/Neighbourhood_%28graph_theory%29">neighbourhood graph</a>" for an input item to generate diverse and high-quality recommendations.</p>
 
 <h3>
 <a id="recommender-systems" class="anchor" href="#recommender-systems" aria-hidden="true"><span class="octicon octicon-link"></span></a>Recommender Systems</h3>
@@ -42,7 +44,7 @@
 
 <p><img src="../images/stackoverflow-similar-items.png" alt="StackoverFlow Recommender Screenshot"></p>
 
-<p>I designed and implemented an algorithm which combines information from multiple sources, such as "co-clicks", "related clicks", "related results" etc. For more details, please see the <a href="http://docs.funnelback.com/recommendations.html">Funnelback Recommender System Documentation</a>.</p>
+<p>I designed and implemented a recommender algorithm for Funnelback which combines information from multiple sources, such as "co-clicks", "related clicks", "related results" etc. For more details, please see the <a href="http://docs.funnelback.com/recommendations.html">Funnelback Recommender System Documentation</a>.</p>
 
 <h3>
 <a id="query-spikes-and-related-queries" class="anchor" href="#query-spikes-and-related-queries" aria-hidden="true"><span class="octicon octicon-link"></span></a>Query Spikes and Related Queries</h3>
