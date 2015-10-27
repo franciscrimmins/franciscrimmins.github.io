@@ -42,6 +42,13 @@
 <p><img src="../images/Popularity-Based-vs-Graph-Based.png" alt="Popularity vs. Graph-Based Recommendations"></p>
 
 <h3>
+<a id="query-spikes-and-related-queries" class="anchor" href="#query-spikes-and-related-queries" aria-hidden="true"><span class="octicon octicon-link"></span></a>Query Spikes and Related Queries</h3>
+
+<p><img src="../images/query-spikes-and-related-queries.png" alt="Query spikes and related queries screenshot"></p>
+
+<p>I was the original designer of the Funnelback "Pattern Analyser" system. This can detect "<a href="http://docs.funnelback.com/trend_alerts_reports.html">spikes</a>" in the time series query log data, where these spikes are usually caused by some external event (e.g. a news story). I also designed and implemented a system to automatically detect related queries, based on their click patterns. This can be used to group queries which have no terms in common but have the same semantics.</p>
+
+<h3>
 <a id="recommender-systems" class="anchor" href="#recommender-systems" aria-hidden="true"><span class="octicon octicon-link"></span></a>Recommender Systems</h3>
 
 <p>Example of recommended "similar items" overlaid over a StackOverflow question:</p>
@@ -49,13 +56,6 @@
 <p><img src="../images/stackoverflow-similar-items.png" alt="StackoverFlow Recommender Screenshot"></p>
 
 <p>I designed and implemented a recommender algorithm for Funnelback which combines information from multiple sources, such as "co-clicks", "related clicks", "related results" etc. For more details, please see the <a href="http://docs.funnelback.com/recommendations.html">Funnelback Recommender System Documentation</a>.</p>
-
-<h3>
-<a id="query-spikes-and-related-queries" class="anchor" href="#query-spikes-and-related-queries" aria-hidden="true"><span class="octicon octicon-link"></span></a>Query Spikes and Related Queries</h3>
-
-<p><img src="../images/query-spikes-and-related-queries.png" alt="Query spikes and related queries screenshot"></p>
-
-<p>I was the original designer of the Funnelback "Pattern Analyser" system. This can detect "<a href="http://docs.funnelback.com/trend_alerts_reports.html">spikes</a>" in the time series query log data, where these spikes are usually caused by some external event (e.g. a news story). I also designed and implemented a system to automatically detect related queries, based on their click patterns. This can be used to group queries which have no terms in common but have the same semantics.</p>
 
 <h3>
 <a id="web-crawling-and-graph-analysis" class="anchor" href="#web-crawling-and-graph-analysis" aria-hidden="true"><span class="octicon octicon-link"></span></a>Web Crawling and Graph Analysis</h3>
