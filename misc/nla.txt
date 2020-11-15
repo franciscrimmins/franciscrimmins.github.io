@@ -1,0 +1,59 @@
+I have a lot of experience managing teams and complex, long-running projects.
+This includes managing relationships with customers from the Government,
+University and Finance sectors, amongst others. I have also managed
+relationships with partners, 3rd party service providers and internal
+stakeholders (e.g. professional services, support, senior management
+and boards) on specific projects.
+
+In each organisation I have worked for I have initiated programs to improve
+processes where necessary e.g. giving talks on best practices in software
+engineering, advocating for the use of new technologies, frameworks, tools
+and methodologies etc.
+
+I have also given strategic advice on my areas of expertise e.g. information
+retrieval, data mining, analytics etc., including planning how trends in
+those areas can be taken advantage of by an organisation.
+
+The advice I give is evidence-based, by reviewing and evaluating the
+latest research and data. Where new initiatives were introduced I ensured
+appropriate performance indicators were used to measure their effectiveness,
+helping to manage the process of change and continuous improvement.
+
+I am comfortable managing teams, providing regular feedback to the team
+as a whole as well as individual members, and mentoring and coaching as
+required. I managed a team in Funnelback that delivered robust, high quality
+and scalable software that is still in use in organisations around the world
+today.
+
+At all times I led by example in terms of promoting a healthy and safe
+work environment (including a good work-life balance), and ensuring that
+honesty and ethical behaviour were valued, and that team success and
+individual contributions were acknowledged and celebrated.
+
+I have a strong background in Information Retrieval, having worked on search
+engine technology at the CSIRO, Funnelback and Lucidworks. I have written
+a 100 million page web crawler, recommender systems, a program for detecting
+"spikes" and related queries in search engine logs and a text miner for
+definitions from web pages.
+
+In the examples above I initiated the design and development of each new
+system or feature, from the proof of concept stage through to product launch
+and production support.
+
+Many of these systems were required to operate in mission-critical and high
+volume environments. I initiated analysis of how these systems were used in
+practice, which led to new product and feature ideas that further improved
+each system.
+
+In terms of skills and experience in relevant technologies, in my role at
+Lucidworks I worked on software that interacted directly with Apache Solr,
+and also have experience with Elasticsearch.
+
+In my most recent position at GBG I implemented a "Business Verification"
+system using Spring and Spring Boot. This used Hibernate for interaction
+with a PostgreSQL database, which sometimes required query analysis and
+the creation of indexes for improved performance. The front-end for the
+system was implemented using Vue.js
+
+If given the opportunity I look forward to applying the experience and skills
+I have outlined above in helping the NLA to meet its strategic priorities.
